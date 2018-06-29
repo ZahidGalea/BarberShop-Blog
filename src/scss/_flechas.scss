@@ -11,3 +11,9 @@
         border-radius: 100%;
     }
 }
+
+@media (max-width: 810px){
+    .flechas__texto{
+        display: none;
+    }
+}
