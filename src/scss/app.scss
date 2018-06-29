@@ -1,0 +1,30 @@
+/* Variables */ 
+
+$negro: #121619;
+$negroclaro: #323333;
+$gris: #707070;
+$rojo: #d56c6a;
+$blanco: #ffffff;
+
+/* Variables */
+
+@import '~bootstrap/scss/bootstrap';
+@import 'navbar';
+@import 'top';
+@import 'contenido';
+@import 'autor';
+@import 'flechas';
+@import 'footer';
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-weight: '400';
+    font-style: regular;
+    color: $negroclaro;
+}
+
+.row{
+    margin: 0;
+}

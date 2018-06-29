@@ -1,0 +1,57 @@
+.icono_blogger{
+    position: relative;
+    text-align: center !important;
+    top: 35px;
+    z-index: 100;
+    svg{
+        background-color: $gris;
+        fill: $blanco;
+        border-radius: 100%;
+    }
+}
+
+/* ICONO BLOGGER */
+
+.blogger{
+    padding: 0;
+    .blogger__informacion{
+        .blogger__informacion__texto{
+            h3{
+                font-family: 'Playfair Display';
+                font-weight: 'Black 900';
+                font-style: italic;
+            }
+        }
+        .row{
+            padding-top: 2rem;
+            padding-bottom: 1rem;
+        }
+        padding: 0;
+        border: solid 1px silver;
+        .blogger__informacion__imagen{
+            text-align: right;
+            img{
+                border-radius: 100%;
+                border: solid 1px $gris;
+            }
+        }
+    
+    }
+}
+
+@media (max-width: 768px){
+    .blogger__informacion{
+        .blogger__informacion__comentario{
+            display: none;
+        }
+        .blogger__informacion__imagen{
+            text-align: center !important;
+        }
+        .blogger__informacion__texto{
+            text-align: center !important;
+        }
+    }
+    
+
+    
+}

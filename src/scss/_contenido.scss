@@ -1,0 +1,61 @@
+.contenido{
+    .contenido__fecha{
+        margin-top: 7vh;
+        .circulo__fecha{
+            display: inline-block;
+            border: solid 1px silver;
+            border-radius: 100%;
+            text-align: center;
+            width: 2rem;
+            svg {
+                margin-left: 4.8%;
+                margin-top: 15%;
+                fill: $gris;
+            }
+        }
+        
+    }
+
+
+    
+    .circulo__corazon{
+        display: inline-block;
+        border: solid 1px silver;
+        border-radius: 100%;
+        text-align: center;
+        width: 2.7rem;
+        background-color: $gris;
+    }
+    svg {
+        margin-left: 4.8%;
+        margin-top: 15%;
+        fill: $blanco;
+    }
+    .circulo__share{
+        display: inline-block;
+        border: solid 1px silver;
+        border-radius: 100%;
+        text-align: center;
+        width: 2.7rem;
+        background-color: $gris;
+    }
+    .circulo__comentario{
+        display: inline-block;
+        border: solid 1px silver;
+        border-radius: 10px;
+        width: 230px;
+        background-color: $gris;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 40px;
+        color: $blanco; 
+        float: left;
+        svg {
+            margin-left: 0.6rem;
+            margin-right: 0.5rem;
+            margin-top: 0.3rem;
+            fill: $blanco;
+        }
+    }
+}

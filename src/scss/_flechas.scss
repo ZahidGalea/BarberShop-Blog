@@ -1,0 +1,13 @@
+.flechas{
+    background-color: silver;
+    font-size: 0.8rem;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg{
+        background-color: $gris;
+        fill: $blanco;
+        border-radius: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+.header {
+    background-size: cover;
+    height: 59vh;
+    text-align: center;
+    color: $blanco;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap !important;
+    font-family: 'Playfair Display';
+    font-weight: 'Black 900';
+    font-style: italic;
+    svg{
+        fill: $blanco;
+    }
+  
+}
